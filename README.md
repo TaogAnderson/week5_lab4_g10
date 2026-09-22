@@ -20,7 +20,7 @@ We learned how to go from a truth table to physical input on a board and all the
 ## Lab Questions
 
 ### Why are the groups of 1’s (or 0’s) that we select in the KMap able to go across edges?
-Because only 1 variable changes between the columns/rows on the edges. The reason you can group across any column or row is because only 1 of the variables is changing between them.
+Because only 1 variable changes between the columns/rows on the edges. The reason you can group across any column or row next to each other is because only 1 of the variables is changing between them this is why 3 and 4 variable K-maps must me reorganized so that only 1 variable ever changes between rows and columns.
 
 ### Why are the names Sum of Products and Products of Sums?
 Because Sum of Products sums (ors) groups of products (ands) together to represent the output in an equation. For Products of Sums it takes products (ands) of groups of sums (ors).
